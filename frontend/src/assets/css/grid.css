@@ -1,0 +1,315 @@
+.full-container {
+    display: block;
+    width: 100%;
+}
+
+.fluid-container {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.container {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 100%;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.col {
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.gutter {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.l-0 {
+    display: none;
+}
+
+.l-1,
+.l-2,
+.l-2-4,
+.l-3,
+.l-4,
+.l-5,
+.l-6,
+.l-7,
+.l-8,
+.l-9,
+.l-10,
+.l-11,
+.l-12 {
+    display: block;
+}
+
+.l-1 {
+    flex: 0 0 8.33%;
+    max-width: 8.33%;
+}
+
+.l-2 {
+    flex: 0 0 16.67%;
+    max-width: 16.67%;
+}
+
+.l-2-4 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.l-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.l-4 {
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+}
+
+.l-5 {
+    flex: 0 0 41.7%;
+    max-width: 41.7%;
+}
+
+.l-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.l-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+}
+
+.l-8 {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+}
+
+.l-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.l-10 {
+    flex: 0 0 83.33%;
+    max-width: 83.33%;
+}
+
+.l-11 {
+    flex: 0 0 91.67%;
+    max-width: 91.67%;
+}
+
+.l-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 740px) and (max-width: 1024px) {
+    .col {
+        padding-left: 5px;
+        padding-right: 5px;
+        box-sizing: border-box;
+    }
+    
+    .m-1,
+    .m-2,
+    .m-2-4,
+    .m-3,
+    .m-4,
+    .m-5,
+    .m-6,
+    .m-7,
+    .m-8,
+    .m-9,
+    .m-10,
+    .m-11,
+    .m-12 {
+        display: block;
+    }
+
+    .m-0 {
+        display: none;
+    }
+    
+    .m-1 {
+        flex: 0 0 8.33%;
+        max-width: 8.33%;
+    }
+    
+    .m-2 {
+        flex: 0 0 16.67;
+        max-width: 8.33%;
+    }
+    
+    .m-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    
+    .m-3 {
+        flex: 0 0 25%;
+        flex-shrink: 0;
+        max-width: 25%;
+    }
+    
+    .m-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    
+    .m-5 {
+        flex: 0 0 41.7%;
+        max-width: 41.7%;
+    }
+    
+    .m-6 {
+        flex: 0 0 50%;
+        flex-shrink: 0;
+        max-width: 50%;
+    }
+    
+    .m-7 {
+        flex: 0 0 58.33%;
+        max-width: 58.33%;
+    }
+    
+    .m-8 {
+        flex: 0 0 66.67%;
+        max-width: 66.67%;
+    }
+    
+    .m-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    
+    .m-10 {
+        flex: 0 0 83.33%;
+        max-width: 83.33%;
+    }
+    
+    .m-11 {
+        flex: 0 0 91.67%;
+        max-width: 91.67%;
+    }
+    
+    .m-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 739px) {
+    .col {
+        padding-left: 5px;
+        padding-right: 5px;
+        box-sizing: border-box;
+    }
+    
+    .s-1,
+    .s-2,
+    .s-2-4,
+    .s-3,
+    .s-4,
+    .s-5,
+    .s-6,
+    .s-7,
+    .s-8,
+    .s-9,
+    .s-10,
+    .s-11,
+    .s-12 {
+        display: block;
+    }
+
+    .s-0 {
+        display: none;
+    }
+    
+    .s-1 {
+        flex: 0 0 8.33%;
+        max-width: 8.33%;
+    }
+    
+    .s-2 {
+        flex: 0 0 16.67;
+        max-width: 8.33%;
+    }
+    
+    .s-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    
+    .s-3 {
+        flex: 0 0 25%;
+        flex-shrink: 0;
+        max-width: 25%;
+    }
+    
+    .s-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    
+    .s-5 {
+        flex: 0 0 41.7%;
+        max-width: 41.7%;
+    }
+    
+    .s-6 {
+        flex: 0 0 50%;
+        flex-shrink: 0;
+        max-width: 50%;
+    }
+    
+    .s-7 {
+        flex: 0 0 58.33%;
+        max-width: 58.33%;
+    }
+    
+    .s-8 {
+        flex: 0 0 66.67%;
+        max-width: 66.67%;
+    }
+    
+    .s-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    
+    .s-10 {
+        flex: 0 0 83.33%;
+        max-width: 83.33%;
+    }
+    
+    .s-11 {
+        flex: 0 0 91.67%;
+        max-width: 91.67%;
+    }
+    
+    .s-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
